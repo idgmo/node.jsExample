@@ -14,9 +14,9 @@ var fs = require('fs');
 
 var server = http.createServer(function(req, res) {
     console.log('request was made: ' + req.url);
-    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.writeHead(200, {'Content-Type': 'text/html'});
     // new additions to streamline:
-    var myReadStream = fs.createReadStream(__dirname + '/readMe.txt', 'utf8');
+    var myReadStream = fs.createReadStream(__dirname + '/index.html', 'utf8');
     // res.end('Hey Ninjas');
     myReadStream.pipe(res);
 });
