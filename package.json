@@ -1,0 +1,25 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "Test app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idgmo/node1.git"
+  },
+  "keywords": [
+    "fun"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idgmo/node1/issues"
+  },
+  "homepage": "https://github.com/idgmo/node1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
