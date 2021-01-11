@@ -4,4 +4,3 @@ The tut was made in 2016 and I am updating my code to match 2019 standards.
 
 The idea is to gain an understanding of Node.js and NPM as I am interacting more frequently.
 
-This tut will end and I will use my new knowledge to expand on my Vue.js project.
